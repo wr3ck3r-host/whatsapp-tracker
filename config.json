@@ -1,0 +1,5 @@
+{
+  "PORT": 3000,
+  "SECRET": "q8v7w2n4z9r6t1b3e5y7u0x1c6l9m2p4",
+  "JWT_SECRET": "m5r8s1u3z6e4x9v2t7w0c3b1n8k5y7d2"
+}
