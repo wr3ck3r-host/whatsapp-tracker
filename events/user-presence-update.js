@@ -1,6 +1,7 @@
 const db = require("quick.db");
 const webpush = require("web-push");
-const { private, public } = global.config.notificationKeys;
+const notificationKeys = global.config.notificationKeys || JSON.parse(process.env.NOTIFICATION_KEYS || '{}');
+const { private, public } = notificationKeys;
 
 webpush.setVapidDetails("mailto:support@whatstracker.app", public, private);
 
