@@ -1,0 +1,173 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.5.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install web-push
+7 verbose argv "install" "web-push"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-08-07T14_46_09_822Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-08-07T14_46_09_822Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+12 silly idealTree buildDeps
+13 silly fetch manifest web-push@*
+14 silly packumentCache full:https://registry.npmjs.org/web-push cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/web-push 1997ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/web-push set size:undefined disposed:false
+17 silly placeDep ROOT web-push@3.6.7 OK for:  want: *
+18 silly fetch manifest asn1.js@^5.3.0
+19 silly packumentCache full:https://registry.npmjs.org/asn1.js cache-miss
+20 silly fetch manifest http_ece@1.2.0
+21 silly packumentCache full:https://registry.npmjs.org/http_ece cache-miss
+22 silly fetch manifest https-proxy-agent@^7.0.0
+23 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent cache-miss
+24 silly fetch manifest jws@^4.0.0
+25 silly packumentCache full:https://registry.npmjs.org/jws cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/asn1.js 185ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/asn1.js set size:undefined disposed:false
+28 silly fetch manifest minimist@^1.2.5
+29 silly packumentCache full:https://registry.npmjs.org/minimist cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/minimist 583ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/minimist set size:undefined disposed:false
+32 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 953ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent set size:undefined disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/jws 1018ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/jws set size:undefined disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/http_ece 1792ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/http_ece set size:undefined disposed:false
+38 silly placeDep ROOT asn1.js@5.4.1 OK for: web-push@3.6.7 want: ^5.3.0
+39 silly placeDep ROOT http_ece@1.2.0 OK for: web-push@3.6.7 want: 1.2.0
+40 silly placeDep ROOT https-proxy-agent@7.0.6 OK for: web-push@3.6.7 want: ^7.0.0
+41 silly placeDep ROOT jws@4.0.0 OK for: web-push@3.6.7 want: ^4.0.0
+42 silly placeDep ROOT minimist@1.2.8 OK for: web-push@3.6.7 want: ^1.2.5
+43 silly fetch manifest bn.js@^4.0.0
+44 silly packumentCache full:https://registry.npmjs.org/bn.js cache-miss
+45 silly fetch manifest inherits@^2.0.1
+46 silly packumentCache full:https://registry.npmjs.org/inherits cache-miss
+47 silly fetch manifest minimalistic-assert@^1.0.0
+48 silly packumentCache full:https://registry.npmjs.org/minimalistic-assert cache-miss
+49 silly fetch manifest safer-buffer@^2.1.0
+50 silly packumentCache full:https://registry.npmjs.org/safer-buffer cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/inherits 164ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/inherits set size:undefined disposed:false
+53 silly fetch manifest agent-base@^7.1.2
+54 silly packumentCache full:https://registry.npmjs.org/agent-base cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/minimalistic-assert 234ms (cache miss)
+56 silly packumentCache full:https://registry.npmjs.org/minimalistic-assert set size:undefined disposed:false
+57 silly fetch manifest debug@4
+58 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/bn.js 256ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/bn.js set size:undefined disposed:false
+61 silly fetch manifest jwa@^2.0.0
+62 silly packumentCache full:https://registry.npmjs.org/jwa cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/safer-buffer 270ms (cache miss)
+64 silly packumentCache full:https://registry.npmjs.org/safer-buffer set size:undefined disposed:false
+65 silly fetch manifest safe-buffer@^5.0.1
+66 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+67 http fetch GET 200 https://registry.npmjs.org/agent-base 124ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/agent-base set size:undefined disposed:false
+69 http fetch GET 200 https://registry.npmjs.org/debug 207ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/debug set size:undefined disposed:false
+71 http fetch GET 200 https://registry.npmjs.org/jwa 205ms (cache miss)
+72 silly packumentCache full:https://registry.npmjs.org/jwa set size:undefined disposed:false
+73 http fetch GET 200 https://registry.npmjs.org/safe-buffer 201ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:undefined disposed:false
+75 silly placeDep ROOT bn.js@4.12.2 OK for: asn1.js@5.4.1 want: ^4.0.0
+76 silly placeDep ROOT inherits@2.0.4 OK for: asn1.js@5.4.1 want: ^2.0.1
+77 silly placeDep ROOT minimalistic-assert@1.0.1 OK for: asn1.js@5.4.1 want: ^1.0.0
+78 silly placeDep ROOT safer-buffer@2.1.2 OK for: asn1.js@5.4.1 want: ^2.1.0
+79 silly placeDep ROOT agent-base@7.1.4 OK for: https-proxy-agent@7.0.6 want: ^7.1.2
+80 silly placeDep ROOT debug@4.4.1 OK for: https-proxy-agent@7.0.6 want: 4
+81 silly fetch manifest ms@^2.1.3
+82 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/ms 161ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/ms set size:undefined disposed:false
+85 silly placeDep ROOT ms@2.1.3 OK for: debug@4.4.1 want: ^2.1.3
+86 silly placeDep ROOT jwa@2.0.1 OK for: jws@4.0.0 want: ^2.0.0
+87 silly placeDep ROOT safe-buffer@5.2.1 OK for: jws@4.0.0 want: ^5.0.1
+88 silly fetch manifest ecdsa-sig-formatter@1.0.11
+89 silly packumentCache full:https://registry.npmjs.org/ecdsa-sig-formatter cache-miss
+90 silly fetch manifest buffer-equal-constant-time@^1.0.1
+91 silly packumentCache full:https://registry.npmjs.org/buffer-equal-constant-time cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/ecdsa-sig-formatter 208ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/ecdsa-sig-formatter set size:undefined disposed:false
+94 http fetch GET 200 https://registry.npmjs.org/buffer-equal-constant-time 213ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/buffer-equal-constant-time set size:undefined disposed:false
+96 silly placeDep ROOT buffer-equal-constant-time@1.0.1 OK for: jwa@2.0.1 want: ^1.0.1
+97 silly placeDep ROOT ecdsa-sig-formatter@1.0.11 OK for: jwa@2.0.1 want: 1.0.11
+98 silly reify moves {}
+99 http cache ecdsa-sig-formatter@https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz 1ms (cache hit)
+100 http cache buffer-equal-constant-time@https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz 0ms (cache hit)
+101 http cache jwa@https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz 0ms (cache hit)
+102 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+103 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+104 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.1.tgz 0ms (cache hit)
+105 http cache agent-base@https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz 0ms (cache hit)
+106 http cache safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 1ms (cache hit)
+107 http cache minimalistic-assert@https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz 0ms (cache hit)
+108 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+109 http cache bn.js@https://registry.npmjs.org/bn.js/-/bn.js-4.12.2.tgz 0ms (cache hit)
+110 http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+111 http cache https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz 0ms (cache hit)
+112 http cache jws@https://registry.npmjs.org/jws/-/jws-4.0.0.tgz 0ms (cache hit)
+113 http cache asn1.js@https://registry.npmjs.org/asn1.js/-/asn1.js-5.4.1.tgz 0ms (cache hit)
+114 http cache http_ece@https://registry.npmjs.org/http_ece/-/http_ece-1.2.0.tgz 0ms (cache hit)
+115 http cache web-push@https://registry.npmjs.org/web-push/-/web-push-3.6.7.tgz 0ms (cache hit)
+116 silly tarball no local data for ecdsa-sig-formatter@https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz. Extracting by manifest.
+117 silly tarball no local data for buffer-equal-constant-time@https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz. Extracting by manifest.
+118 silly tarball no local data for jwa@https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz. Extracting by manifest.
+119 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz. Extracting by manifest.
+120 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+121 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.1.tgz. Extracting by manifest.
+122 silly tarball no local data for agent-base@https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz. Extracting by manifest.
+123 silly tarball no local data for safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz. Extracting by manifest.
+124 silly tarball no local data for minimalistic-assert@https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz. Extracting by manifest.
+125 silly tarball no local data for inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+126 silly tarball no local data for bn.js@https://registry.npmjs.org/bn.js/-/bn.js-4.12.2.tgz. Extracting by manifest.
+127 silly tarball no local data for minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz. Extracting by manifest.
+128 silly tarball no local data for https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz. Extracting by manifest.
+129 silly tarball no local data for jws@https://registry.npmjs.org/jws/-/jws-4.0.0.tgz. Extracting by manifest.
+130 silly tarball no local data for asn1.js@https://registry.npmjs.org/asn1.js/-/asn1.js-5.4.1.tgz. Extracting by manifest.
+131 silly tarball no local data for http_ece@https://registry.npmjs.org/http_ece/-/http_ece-1.2.0.tgz. Extracting by manifest.
+132 silly tarball no local data for web-push@https://registry.npmjs.org/web-push/-/web-push-3.6.7.tgz. Extracting by manifest.
+133 http fetch GET 200 https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz 253ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz 253ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz 259ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 255ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/http_ece/-/http_ece-1.2.0.tgz 379ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/web-push/-/web-push-3.6.7.tgz 815ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz 1964ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 1989ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/bn.js/-/bn.js-4.12.2.tgz 1997ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 1999ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/asn1.js/-/asn1.js-5.4.1.tgz 2041ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/jws/-/jws-4.0.0.tgz 2197ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz 2303ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.4.1.tgz 2366ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 2511ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 2521ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz 2596ms (cache miss)
+150 silly ADD node_modules/ecdsa-sig-formatter
+151 silly ADD node_modules/buffer-equal-constant-time
+152 silly ADD node_modules/safe-buffer
+153 silly ADD node_modules/jwa
+154 silly ADD node_modules/ms
+155 silly ADD node_modules/debug
+156 silly ADD node_modules/agent-base
+157 silly ADD node_modules/safer-buffer
+158 silly ADD node_modules/minimalistic-assert
+159 silly ADD node_modules/inherits
+160 silly ADD node_modules/bn.js
+161 silly ADD node_modules/minimist
+162 silly ADD node_modules/jws
+163 silly ADD node_modules/https-proxy-agent
+164 silly ADD node_modules/http_ece
+165 silly ADD node_modules/asn1.js
+166 silly ADD node_modules/web-push
+167 verbose cwd /data/data/com.termux/files/home
+168 verbose os Linux 5.4.274-qgki-g2a1719c964bd
+169 verbose node v24.5.0
+170 verbose npm  v11.5.1
+171 verbose exit 0
+172 info ok
