@@ -22,7 +22,7 @@ module.exports = new Promise(async (res) => {
 	app.use(helmet({ contentSecurityPolicy: !!config.prod }));
 	router.use(
 		"/",
-		jwt({ secret: config.jwt, algorithms: ["HS256"] }).unless({
+	jwt({ secret: config.jwtSecret, algorithms: ["HS256"] }).unless({
 			path: [`${route}register`, `${route}login`, /\/internal\/*/],
 		})
 	);
