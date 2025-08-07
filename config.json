@@ -3,7 +3,9 @@
   "production": {
     "PORT": 10000,
     "secret": "Z3x9p7v2q1m4c8b5n6r0t2k7u1y5w3e9",
+    "jwtSecret": "Z3x9p7v2q1m4c8b5n6r0t2k7u1y5w3e9",
     "clientURL": "https://whatsapp-tracker.onrender.com",
     "dbpath": "./json.sqlite"
   }
 }
+
